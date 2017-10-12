@@ -1,21 +1,21 @@
-#webdriver-js-example
+# webdriver-js-example
 Simple project showing how to use Selenium WebDriver in JS ES6
 
-###Prerequisites
+### Prerequisites
 * NodeJS >=7.6 (support for **async/await** without a flag)
 
-###Setup
+### Setup
 ```
 npm install
 ```
 
-###Running 
+### Running 
 ```
 node test.js
 ```
 
 
-####Commands for starting Selenium Webdriver JS project from scratch
+#### Commands for starting Selenium Webdriver JS project from scratch
 
 * Installing Selenium Webdriver client library
     ```
