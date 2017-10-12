@@ -1,5 +1,5 @@
 //npm install --save--dev selenium-webdriver
-const {Builder, By, Key, until} = require('selenium-webdriver');
+const {Builder, By, Key, until, promise} = require('selenium-webdriver');
 const chrome = require('selenium-webdriver/chrome');
 const firefox = require('selenium-webdriver/firefox');
 
@@ -12,6 +12,7 @@ require('chromedriver');
 require('geckodriver');
 
 
+// promise.USE_PROMISE_MANAGER = false;
 
 // let service = new chrome.ServiceBuilder(chromedriver.path).build();
 // chrome.setDefaultService(service);
@@ -20,6 +21,7 @@ require('geckodriver');
 
 let options = new firefox.Options().setBinary('C:\\tools\\Firefox');
 
+//it`s possible to add all kinds of desired capapbilites for different browsers
 const driver = new Builder()
     .forBrowser('chrome')
     .setFirefoxOptions(options)
