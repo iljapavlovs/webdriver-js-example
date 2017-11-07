@@ -25,6 +25,6 @@ describe('Google Search', function() {
 
         await driver.wait(until.titleIs('webdriver - Google Search'), 1000);
         await assert.equal(driver.getTitle(), 'webdriver - Google Search');
-        await console.log(driver.getTitle());
+        // await console.log(driver.getTitle());
     });
 });

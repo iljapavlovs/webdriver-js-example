@@ -19,7 +19,7 @@ node test.js
 
 * Installing Selenium Webdriver client library
     ```
-    npm install --save--dev selenium-webdriver
+    npm install --save--dev webdriver-webdriver
     ```
 * Installing Browser`s Drivers
     ```
@@ -29,3 +29,10 @@ node test.js
     ```
 * Adding browser driver executable to PATH
     * just `require('chromedriver')` in the top of the test and it will automatically will add chromedriver path to the process.env.PATH
+    
+* Running Mocha Tests
+```
+node_modules/mocha/bin/mocha test-with-WDJS-mocha-promise-manager.js
+```
+
+Or install mocha globally
