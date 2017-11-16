@@ -1,9 +1,9 @@
 require('chromedriver');
-const {Builder, By, until, promise} = require('selenium-webdriver');
-const chrome = require('selenium-webdriver/chrome');
-const LoginPage = require('./LoginPage');
-const SecureAreaPage = require('./SecureAreaPage');
-const assert = require('assert');
+import {Builder, By, until, promise} from 'selenium-webdriver'
+import chrome from 'selenium-webdriver/chrome'
+import LoginPage from './LoginPage'
+import SecureAreaPage from './SecureAreaPage'
+import assert = require('assert');
 const {assert: chaiAssert} = require('chai');
 
 

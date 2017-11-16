@@ -5,7 +5,7 @@ const NOTIFICATION_SECTION_LOCATOR = By.id("flash-messages");
 const LOGOUT_BUTTON_LOCATOR = By.css("[href='/logout']");
 
 
-SecureAreaPage = function SecureAreaPage(driver) {
+const SecureAreaPage = function SecureAreaPage(driver) {
     this.driver = driver;
 };
 
